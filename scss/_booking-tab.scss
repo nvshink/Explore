@@ -1,0 +1,76 @@
+.booking-tabs {
+    overflow: hidden;
+        --primary: #FFF;
+        --color: #1F3347;
+        padding: 15px 0;
+    .booking-tabs__head {
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: nowrap;
+    .booking-tabs__caption {
+        border-radius: 4px 4px 0 0;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 8px 30px;
+        margin-right: 10px;
+        cursor: pointer;
+        color: var(--color);
+        opacity: 0.6;
+        background: var(--primary);
+        transition: 0.25s;
+    }
+
+
+    .booking-tabs__caption:hover {
+        opacity: 0.8;
+    }
+
+    .booking-tabs__caption_active {
+        opacity: 1;
+        background: var(--primary);
+    }
+    }
+    .booking-tabs__body {
+        background: var(--primary);
+        position: relative;
+        top: -2px;
+        transition: 0.25s;
+    .booking-tabs__content {
+        display: none;
+        padding: 30px;
+        color: var(--color);
+        transform: scaleY(0.8);
+        opacity: 0;
+        transform-origin: center top;
+        -webkit-animation: showContent 0.6s forwards;
+        animation: showContent 0.6s forwards;
+    }
+    .booking-tabs__content_active {
+        display: block;
+    }
+}
+}
+
+@-webkit-keyframes showContent {
+    0% {
+        transform: scaleY(0.8);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+}
+
+@keyframes showContent {
+    0% {
+        transform: scaleY(0.8);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+}

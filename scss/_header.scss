@@ -1,0 +1,67 @@
+header {
+    background-image: url(../content/BG.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    nav {
+        padding-top: 17px;
+        padding-bottom: 114px;
+
+        .logo {
+            display: flex;
+            padding-top: 15px;
+
+            img {
+                min-height: 48px;
+            }
+        }
+
+        .menu {
+            display: flex;
+
+            .menu__link {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                color: #FFFFFF;
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+
+            .menu__authorize {
+                display: flex;
+
+                .menu__authorize_login {
+                    margin: auto 15px auto 20px;
+                    height: fit-content;
+                }
+
+                .menu__authorize_button {
+                    margin-left: 15px;
+                }
+            }
+        }
+
+    }
+
+    .banner {
+
+        .banner-cont {
+            color: #FFFFFF;
+
+            .banner-cont__title {
+                font-size: 64px;
+                margin-bottom: 17px;
+            }
+
+            .banner-cont__text {
+                line-height: 30px;
+                margin-bottom: 37px;
+            }
+
+            .banner-cont__btn_prim {
+                margin-right: 20px;
+            }
+        }
+    }
+}

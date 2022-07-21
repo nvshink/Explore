@@ -1,0 +1,282 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-Thin.ttf);
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-ThinItalic.ttf);
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-ExtraLight.ttf);
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-ExtraLightItalic.ttf);
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-LightItalic.ttf);
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-Italic.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-MediumItalic.ttf);
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-SemiBoldItalic.ttf);
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-BoldItalic.ttf);
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-ExtraBold.ttf);
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-ExtraBoldItalic.ttf);
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-Black.ttf);
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-BlackItalic.ttf);
+  font-weight: 900;
+  font-style: italic;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: normal;
+  font-weight: 700;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  min-height: 56px;
+  min-width: 160px;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #1F3347;
+  background: #FFFDFD;
+}
+
+.bttn-secondary {
+  background: #FFFDFD;
+}
+
+.bttn-primary {
+  background: #FFC814;
+}
+
+header {
+  background-image: url(../content/BG.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+header nav {
+  padding-top: 17px;
+  padding-bottom: 114px;
+}
+header nav .logo {
+  display: flex;
+  padding-top: 15px;
+}
+header nav .logo img {
+  min-height: 48px;
+}
+header nav .menu {
+  display: flex;
+}
+header nav .menu .menu__link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+header nav .menu .menu__authorize {
+  display: flex;
+}
+header nav .menu .menu__authorize .menu__authorize_login {
+  margin: auto 15px auto 20px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+header nav .menu .menu__authorize .menu__authorize_button {
+  margin-left: 15px;
+}
+header .banner .banner-cont {
+  color: #FFFFFF;
+}
+header .banner .banner-cont .banner-cont__title {
+  font-size: 64px;
+  margin-bottom: 17px;
+}
+header .banner .banner-cont .banner-cont__text {
+  line-height: 30px;
+  margin-bottom: 37px;
+}
+header .banner .banner-cont .banner-cont__btn_prim {
+  margin-right: 20px;
+}
+
+.booking-tabs {
+  overflow: hidden;
+  --primary: #FFF;
+  --color: #1F3347;
+  padding: 15px 0;
+}
+.booking-tabs .booking-tabs__head {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+}
+.booking-tabs .booking-tabs__head .booking-tabs__caption {
+  border-radius: 4px 4px 0 0;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 30px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: var(--color);
+  opacity: 0.6;
+  background: var(--primary);
+  transition: 0.25s;
+}
+.booking-tabs .booking-tabs__head .booking-tabs__caption:hover {
+  opacity: 0.8;
+}
+.booking-tabs .booking-tabs__head .booking-tabs__caption_active {
+  opacity: 1;
+  background: var(--primary);
+}
+.booking-tabs .booking-tabs__body {
+  background: var(--primary);
+  position: relative;
+  top: -2px;
+  transition: 0.25s;
+}
+.booking-tabs .booking-tabs__body .booking-tabs__content {
+  display: none;
+  padding: 30px;
+  color: var(--color);
+  transform: scaleY(0.8);
+  opacity: 0;
+  transform-origin: center top;
+  -webkit-animation: showContent 0.6s forwards;
+  animation: showContent 0.6s forwards;
+}
+.booking-tabs .booking-tabs__body .booking-tabs__content_active {
+  display: block;
+}
+
+@-webkit-keyframes showContent {
+  0% {
+    transform: scaleY(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+@keyframes showContent {
+  0% {
+    transform: scaleY(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}/*# sourceMappingURL=style.css.map */

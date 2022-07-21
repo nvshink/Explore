@@ -1,0 +1,42 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-style: normal;
+    font-weight: 700;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    min-height: 56px;
+    min-width: 160px;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1F3347;
+    background: #FFFDFD;
+}
+
+.bttn-secondary {
+    background: #FFFDFD;
+}
+
+.bttn-primary {
+    background: #FFC814;
+}
