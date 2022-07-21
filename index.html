@@ -76,24 +76,117 @@
         </div>
     </header>
     <div class="content">
-        <div class="container">
-        <div class="content__booking-tabs booking-tabs">
-            <div class="booking-tabs__head">
-                <div class="booking-tabs__caption" data-tab="hotel"><img src="content/hotel.svg" alt=""> Hotel</div>
-                <div class="booking-tabs__caption" data-tab="flight"><img src="content/flight.svg" alt=""> Flight</div>
-                <div class="booking-tabs__caption" data-tab="car"><img src="content/car.svg" alt=""> Car</div>
-                <div class="booking-tabs__caption" data-tab="ship"><img src="content/ship.svg" alt=""> Ship</div>
+        <div class="container-xl">
+            <div class="row">
+                <div class="content__booking-tabs booking-tabs">
+                    <div class="booking-tabs__head col justify-content-center justify-content-md-start">
+                        <div class="booking-tabs__caption" data-tab="hotel"><img src="content/hotel.svg" alt="">
+                            <div class="caption__text d-none d-md-inline">Hotel</div>
+                        </div>
+                        <div class="booking-tabs__caption" data-tab="flight"><img src="content/flight.svg" alt="">
+                            <div class="caption__text d-none d-md-inline">Flight</div>
+                        </div>
+                        <div class="booking-tabs__caption" data-tab="car"><img src="content/car.svg" alt="">
+                            <div class="caption__text d-none d-md-inline">Car</div>
+                        </div>
+                        <div class="booking-tabs__caption" data-tab="ship"><img src="content/ship.svg" alt="">
+                            <div class="caption__text d-none d-md-inline">Ship</div>
+                        </div>
+                    </div>
+                    <div class="booking-tabs__body ">
+                        <div class="booking-tabs__content" data-tab="hotel">
+                            <div class="content__item col-12 col-md-4 col-xxl-2">
+                                <div class="item__name">Your Destination</div>
+                                <input type="text" class="item__input">
+                            </div>
+                            <div class="content__item col-12 col-md-4 col-xxl-2">
+                                <div class="item__name">Check In</div>
+                                <input type="date" class="item__input">
+                            </div>
+                            <div class="content__item col-12 col-md-4 col-xxl-2">
+                                <div class="item__name">Check Out</div>
+                                <input type="date" class="item__input">
+                            </div>
+                            <div class="content__item col-12 col-md-4 col-xxl-2">
+                                <div class="item__name">Child</div>
+                                <input type="text" class="item__input">
+                            </div>
+                            <div class="content__item col-12 col-md-4 col-xxl-2">
+                                <div class="item__name">Adult</div>
+                                <input type="text" class="item__input">
+                            </div>
+                            <div class="content__item_button content__item col-12 col-md-4  col-xxl-2">
+                                <button class="item__button bttn-primary">Book Now</button>
+                            </div>
+                        </div>
+                        <div class="booking-tabs__content" data-tab="flight">
+                            <div class="content__item col-12 col-md-4 col-xxl-2">
+                                <div class="item__name">Your Start Point</div>
+                                <input type="text" class="item__input">
+                            </div>
+                            <div class="content__item col-12 col-md-4 col-xxl-2">
+                                <div class="item__name">Your End Point</div>
+                                <input type="text" class="item__input">
+                            </div>
+                            <div class="content__item col-12 col-md-4 col-xxl-2">
+                                <div class="item__name">Check In</div>
+                                <input type="date" class="item__input">
+                            </div>
+                            <div class="content__item col-12 col-md-4 col-xxl-2">
+                                <div class="item__name">Check Out</div>
+                                <input type="date" class="item__input">
+                            </div>
+                            <div class="content__item col-12 col-md-4 col-xxl-2">
+                                <div class="item__name">Seats</div>
+                                <input type="text" class="item__input">
+                            </div>
+                            <div class="content__item_button content__item col-12 col-md-4  col-xxl-2">
+                                <button class="item__button bttn-primary">By Ticket Now</button>
+                            </div>
+                        </div>
+                        <div class="booking-tabs__content" data-tab="car">
+                            <div class="content__item col-12 col-md-4 col-xxl-2">
+                                <div class="item__name">Your Start Point</div>
+                                <input type="text" class="item__input">
+                            </div>
+                            <div class="content__item col-12 col-md-4 col-xxl-2">
+                                <div class="item__name">Your End Point</div>
+                                <input type="text" class="item__input">
+                            </div>
+                            <div class="content__item_button content__item col-12 col-md-4  col-xxl-2">
+                                <button class="item__button bttn-primary">Get Route</button>
+                            </div>
+                        </div>
+                        <div class="booking-tabs__content" data-tab="ship">
+                            <div class="content__item col-12 col-md-4 col-xxl-2">
+                                <div class="item__name">Your Start Point</div>
+                                <input type="text" class="item__input">
+                            </div>
+                            <div class="content__item col-12 col-md-4 col-xxl-2">
+                                <div class="item__name">Your End Point</div>
+                                <input type="text" class="item__input">
+                            </div>
+                            <div class="content__item col-12 col-md-4 col-xxl-2">
+                                <div class="item__name">Check In</div>
+                                <input type="date" class="item__input">
+                            </div>
+                            <div class="content__item col-12 col-md-4 col-xxl-2">
+                                <div class="item__name">Check Out</div>
+                                <input type="date" class="item__input">
+                            </div>
+                            <div class="content__item col-12 col-md-4 col-xxl-2">
+                                <div class="item__name">Seats</div>
+                                <input type="text" class="item__input">
+                            </div>
+                            <div class="content__item_button content__item col-12 col-md-4  col-xxl-2">
+                                <button class="item__button bttn-primary">By Ticket Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="booking-tabs__body">
-                <div class="booking-tabs__content" data-tab="hotel">Hotel</div>
-                <div class="booking-tabs__content" data-tab="flight">Flight</div>
-                <div class="booking-tabs__content" data-tab="car">Car</div>
-                <div class="booking-tabs__content" data-tab="ship">Ship</div>
-            </div>
-        </div>
         </div>
     </div>
-
 </body>
 <script src="js/booking-tabs.js"></script>
 
