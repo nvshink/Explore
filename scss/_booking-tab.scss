@@ -1,7 +1,7 @@
 .booking-tabs {
     overflow: hidden;
     margin-top: -111px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     --bg-primary: #FFF;
     --color: #1F3347;
     --bg-selected: #FFC814;
@@ -45,13 +45,14 @@
 
         .booking-tabs__content {
             display: none;
-           flex-wrap: wrap;
-           align-items: flex-end;
+            flex-wrap: wrap;
+            align-items: flex-end;
             padding: 18px 3px;
             color: var(--color);
-            
+
             .content__item {
                 padding: 30px 20px;
+
                 .item__name {
                     margin-bottom: 7px;
                 }
@@ -75,27 +76,23 @@
     }
 }
 
-@-webkit-keyframes showContent {
-    0% {
-        transform: scaleY(0.8);
-        opacity: 0;
-    }
 
-    100% {
-        transform: scaleY(1);
-        opacity: 1;
+.bg-big-text {
+    z-index: -1;
+
+    .bg-big-text__content {
+        max-width: 100%;
+        min-width: 100%;
+        margin: -34px 0 -50px -6px;
     }
 }
 
-@keyframes showContent {
-    0% {
-        transform: scaleY(0.8);
-        opacity: 0;
-    }
-
-    100% {
-        transform: scaleY(1);
-        opacity: 1;
+@media (min-width: 576px) {
+    .bg-big-text {
+        .bg-big-text__content {
+            margin-top: -34px;
+            margin-bottom: -100px;
+        }
     }
 }
 
@@ -112,15 +109,41 @@
         .booking-tabs__body {
             .booking-tabs__content {
                 margin: 0px 27px;
+
                 .content__item {
                     margin: 10px 0px;
+
                     .item__input {
                         min-width: 170px;
                         max-width: 170px;
                     }
-                    
+
                 }
             }
+        }
+    }
+
+    .bg-big-text {
+        .bg-big-text__content {
+            margin-top: -44px;
+            margin-bottom: -140px;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .bg-big-text {
+        .bg-big-text__content {
+            margin-top: -54px;
+            margin-bottom: -160px;
+        }
+    }
+}
+@media (min-width: 1200px) {
+    .bg-big-text {
+        .bg-big-text__content {
+            margin-top: -54px;
+            margin-bottom: -190px;
         }
     }
 }
