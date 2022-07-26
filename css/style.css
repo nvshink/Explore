@@ -340,6 +340,9 @@ header .banner .banner-cont .banner-cont__btn_prim {
     margin-bottom: -190px;
   }
 }
+.about {
+  padding-bottom: 100px;
+}
 .about span, .about p, .about li {
   color: #9DA1B4;
 }
